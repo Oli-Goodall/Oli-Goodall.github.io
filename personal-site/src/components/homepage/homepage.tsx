@@ -1,9 +1,10 @@
 import React from "react";
+import "./Homepage.scss"
 
 export const Home: React.FunctionComponent = () => {
     return(
         <>
-            <h1>Welcome! Site currently under construction.</h1>
+            <h1 className="front-page-heading">Welcome! Site currently under construction.</h1>
             
         </>
     )

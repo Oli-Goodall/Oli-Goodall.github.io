@@ -1,25 +1,23 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Hamburger from "hamburger-react";
 import "./Navbar.scss";
 
 
 export const Navbar: React.FunctionComponent = () => {
-    const [isExpanded, setIsExpanded] = useState(false);
 
     return (
         <nav className="navbar" role="navigation" aria-label="main navigation">
-            <div className="mobile-menu">
-                <Hamburger toggled={isExpanded} toggle={setIsExpanded} />
-            </div>
-            <ul className={`menu-items ${isExpanded ? "expanded" : ""}`}>
-                <Link to="/" onClick={() => setIsExpanded(false)}>
+            <ul className="menu-items">
+                    <Link className="name-top-left" to="/">
+                        Oli Goodall
+                    </Link>
+                <Link to="/">
                     Home
                 </Link>
-                <Link to="/cv" onClick={() => setIsExpanded(false)}>
+                <Link to="/cv">
                     CV
                 </Link>
-                <Link to="/links" onClick={() => setIsExpanded(false)}>
+                <Link to="/links">
                     Links
                 </Link>
             </ul>
