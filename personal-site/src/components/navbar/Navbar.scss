@@ -10,7 +10,8 @@ nav.navbar {
   position: fixed;
   top: 0;
   z-index: 2;
-  min-width: 100%;
+  width: 75%;
+  max-width: 400px;
 
   ul {
     padding: 0;
@@ -18,7 +19,10 @@ nav.navbar {
     width: 100%;
   }
 
-  a {
+  .nav-links {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-evenly;
     color: rgb(0, 0, 0);
     text-decoration: none;
 
