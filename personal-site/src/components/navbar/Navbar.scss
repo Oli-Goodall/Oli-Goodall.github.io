@@ -10,8 +10,9 @@ nav.navbar {
   position: fixed;
   top: 0;
   z-index: 2;
-  width: 75%;
-  max-width: 400px;
+  background-color: black;
+  min-width: 100vw;
+  padding-left: 10px;
 
   ul {
     padding: 0;
@@ -22,26 +23,11 @@ nav.navbar {
   .nav-links {
     flex-grow: 1;
     display: flex;
-    justify-content: space-evenly;
-    color: rgb(0, 0, 0);
+    justify-content: left;
+    color: rgb(255, 255, 255);
     text-decoration: none;
+    gap: 10px;
 
-    &:visited {
-      color: blue;
-    }
-
-    &:hover {
-      color: blue;
-      text-decoration: underline;
-    }
-
-    &:link {
-      color: rgb(0, 0, 0);
-    }
-
-    &:active {
-      color: rgb(0, 0, 0);
-    }
   }
 
   .menu-items {
@@ -53,5 +39,9 @@ nav.navbar {
   div.name-top-left {
     display: block;
     height: 100%;
+    color: white;
+    text-decoration: none;
   }
 }
+
+

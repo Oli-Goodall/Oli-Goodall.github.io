@@ -43,3 +43,12 @@
   min-height: 100vh;
   min-width: 100vw;
 }
+
+a, a:link, a:visited, a:focus, a:active{
+  color: white;
+  text-decoration:none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
