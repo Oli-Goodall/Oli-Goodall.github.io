@@ -2,3 +2,9 @@ h1.front-page-heading {
     position: relative;
     top: 200px;
 }
+
+div.homepage {
+    min-width: 100vw;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #a3a3a3 0%, #a3a3a3 50%,#f6f6f6 50%,#f6f6f6 100%);
+}
