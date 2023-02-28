@@ -17,11 +17,13 @@ const SiteRoutes: React.FunctionComponent = () => {
 const App: React.FunctionComponent = () => {
   return (
     <Router>
+      <div className='site'>
       <Navbar />
       <main className='page-content'>
         <SiteRoutes />
       </main>
     <Footer />
+    </div>
     </Router>
   );
 }
