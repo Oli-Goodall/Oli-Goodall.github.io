@@ -38,10 +38,9 @@
 }
 
 .site {
-  background-color: aliceblue;
-  position: absolute;
-  min-height: 100vh;
   min-width: 100vw;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #a3a3a3 0%, #a3a3a3 50%,#f6f6f6 50%,#f6f6f6 100%);
 }
 
 a, a:link, a:visited, a:focus, a:active{
