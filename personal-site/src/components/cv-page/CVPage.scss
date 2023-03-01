@@ -1,5 +1,9 @@
-h1.cv-page-heading {
+.cv-page {
+    min-width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    top: 3em;
     position: absolute;
-    top: 200px;
+    left: 0.5em;
 }
-
