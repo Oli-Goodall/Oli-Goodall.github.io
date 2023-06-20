@@ -18,8 +18,8 @@ export const Navbar: React.FunctionComponent = () => {
                     <Link to="/cv">
                         CV
                     </Link>
-                    <Link to="/links">
-                        Links
+                    <Link to="/projects">
+                        Projects
                     </Link>
                 </div>
             </ul>
